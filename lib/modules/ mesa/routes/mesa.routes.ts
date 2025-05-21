@@ -1,9 +1,8 @@
-import { MesaController } from "../mesa.controller";
+import { MesaController } from "../controllers/mesa.controller";
 
+export class MesaRoutes {
+    private mesaController: MesaController = new MesaController();
 
-export class mesaRoutes {
-    private mesaController: MesaController = new MesaController(); 
-    
     public routes(app): void {
         app.route('/mesa')
         .get(this.mesaController.obtenerMesas)
