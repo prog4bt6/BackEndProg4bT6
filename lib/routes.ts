@@ -1,4 +1,5 @@
-import { MesaRoutes } from "modules/ mesa/routes/mesa.routes";
+
+import { MesaRoutes } from "./modules/ mesa/routes/mesa.routes";
 import { UsuarioRoutes } from "./modules/usuario/routes/usuario.routes";
 
 export class Routes {

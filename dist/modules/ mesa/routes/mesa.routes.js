@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.mesaRoutes = void 0;
-const mesa_controller_1 = require("../mesa.controller");
-class mesaRoutes {
+exports.MesaRoutes = void 0;
+const mesa_controller_1 = require("../controllers/mesa.controller");
+class MesaRoutes {
     constructor() {
         this.mesaController = new mesa_controller_1.MesaController();
     }
@@ -15,5 +15,5 @@ class mesaRoutes {
             .delete(this.mesaController.eliminarMesa);
     }
 }
-exports.mesaRoutes = mesaRoutes;
-//# sourceMappingURL=mesa.routers.js.map
+exports.MesaRoutes = MesaRoutes;
+//# sourceMappingURL=mesa.routes.js.map
