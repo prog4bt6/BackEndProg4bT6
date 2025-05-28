@@ -9,5 +9,6 @@ export class Routes {
 
     public routes(app): void {
         this.usuarioRoutes.routes(app);
+        this.mesaRoutes.routes(app);
     }
 }
